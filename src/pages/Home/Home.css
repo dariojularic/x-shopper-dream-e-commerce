@@ -6,13 +6,13 @@ main {
 }
 
 .first-section {
-  width: 80%;
+  width: 70%;
   display: flex;
   margin-top: 80px;
 }
 
 .home1-img {
-  height: 540px;
+  height: 580px;
 }
 
 .home-header-container {

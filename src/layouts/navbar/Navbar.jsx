@@ -6,6 +6,8 @@ function Navbar() {
     <nav>
       <div className="logo-container">
         <Link className="navbar-link" to="/">
+          {/* <svg></svg> */}
+          <img className="bag-icon" src="src/assets/bag.svg" alt="" />
           <p>X Shoppers Dream</p>
         </Link>
       </div>
@@ -22,6 +24,7 @@ function Navbar() {
       <div className="cart-navbar-container">
         <Link className="navbar-link" to="/cart">
           <p>Cart</p>
+          <img className="bag-icon" src="src/assets/bag.svg" alt="" />
         </Link>
       </div>
     </nav>
