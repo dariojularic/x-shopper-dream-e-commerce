@@ -8,22 +8,35 @@ main {
 .first-section {
   width: 80%;
   display: flex;
+  margin-top: 80px;
 }
 
 .home1-img {
   height: 540px;
 }
 
-.home-header {
+.home-header-container {
   margin: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 48px 0;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .home-h1 {
   font-size: 56px;
   font-weight: 700;
+  margin: 0;
 }
 
 .home-h2 {
   font-size: 24px;
   font-weight: 500;
+}
+
+.home-buttons-container {
+  display: flex;
+  gap: 24px;
 }

@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 8px;
+  border: none;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.action1 {
+  background-color: #C027D3;
+  color: white;
+}
+
+.action2 {
+  background-color: white;
+}
