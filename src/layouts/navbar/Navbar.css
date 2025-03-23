@@ -1,0 +1,15 @@
+nav {
+  background-color: rgb(255, 177, 177);
+  display: flex;
+  justify-content: space-around;
+}
+
+.links-container {
+  display: flex;
+}
+
+.navbar-link {
+  margin-right: 24px;
+  text-decoration: none;
+  color: black;
+}

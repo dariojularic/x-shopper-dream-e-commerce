@@ -1,7 +1,8 @@
 import './App.css'
+import SharedLayout from "./layouts/shared/SharedLayout"
 
 function App() {
-  return <h1>Hello</h1>
+  return <SharedLayout/>
 }
 
 export default App

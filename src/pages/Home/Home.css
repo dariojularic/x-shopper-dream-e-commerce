@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.first-section {
+  width: 80%;
+  display: flex;
+}
+
+.home1-img {
+  height: 540px;
+}
+
+.home-header {
+  margin: 0 32px;
+}
+
+.home-h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.home-h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
