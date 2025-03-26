@@ -1,5 +1,5 @@
 import './App.css'
-import SharedLayout from "./layouts/shared/SharedLayout"
+import SharedLayout from "./layouts/shared/SharedLayout.tsx"
 
 function App() {
   return <SharedLayout/>

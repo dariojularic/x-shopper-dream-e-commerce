@@ -5,7 +5,9 @@ function SharedLayout() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 }

@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 
 function Home() {
   return (
-    <main>
+    // <main>
       <section className="first-section">
         <div className="home-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
@@ -17,7 +17,7 @@ function Home() {
           <img src="src/assets/home1.png" alt="" className="home1-img"/>
         </div>
       </section>
-    </main>
+    // </main>
   )
 }
 
