@@ -41,3 +41,17 @@ main {
   display: flex;
   gap: 24px;
 }
+
+.companies-list {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+}
+
+.second-section {
+  width: 70%;
+}
+
+.company-image {
+
+}

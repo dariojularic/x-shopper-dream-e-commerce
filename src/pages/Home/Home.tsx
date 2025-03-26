@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 
 function Home() {
   return (
-    // <main>
+    <>
       <section className="first-section">
         <div className="home-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
@@ -17,7 +17,18 @@ function Home() {
           <img src="src/assets/home1.png" alt="" className="home1-img"/>
         </div>
       </section>
-    // </main>
+
+      <section className="second-section">
+        <h2>AS FEATURED IN</h2>
+        <ul className="companies-list">
+          <li><img src="src/assets/techCrunch.png" className="company-img" /></li>
+          <li><img src="src/assets/businessInsider.png" className="company-img" /></li>
+          <li><img src="src/assets/newYorkTimes.png" className="company-img" /></li>
+          <li><img src="src/assets/forbes.png" className="company-img" /></li>
+          <li><img src="src/assets/usaToday.png" className="company-img" /></li>
+        </ul>
+      </section>
+    </>
   )
 }
 
