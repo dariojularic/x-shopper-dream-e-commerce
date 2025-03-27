@@ -1,7 +1,10 @@
 import "./Home.css";
 import Button from "../../components/Button";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="first-section">
@@ -9,8 +12,11 @@ function Home() {
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
           <h2 className="home-h2">Create your perfect space with our designs.</h2>
           <div className="home-buttons-container">
-            <Button value="Explore products" type="action1" />
-            <Button value="Learn more" type="action2" />
+            <Button value="Explore products" type="action1" handleClick={() => navigate("/products")} />
+            <Button value="Learn more" type="action2" handleClick={() => window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: 'smooth'
+            })} />
           </div>
         </div>
         <div className="home-image">
@@ -27,6 +33,11 @@ function Home() {
           <li><img src="src/assets/forbes.png" className="company-img" /></li>
           <li><img src="src/assets/usaToday.png" className="company-img" /></li>
         </ul>
+      </section>
+
+      <section>
+        <h3>FEATURED PRODUCTS</h3>
+        <h2>The art of modern living unlocked.</h2>
       </section>
     </>
   )

@@ -5,7 +5,7 @@ import { useState } from "react";
 function Navbar() {
   const [activePage, setActivePage] = useState<string>("Home")
 
-  function handleClick(page: string) {
+  function handleClick(page: string): void {
     setActivePage(page)
   }
 
