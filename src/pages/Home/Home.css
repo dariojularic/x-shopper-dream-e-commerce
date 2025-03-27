@@ -6,13 +6,13 @@ main {
 }
 
 section {
-  margin-bottom: 160px;
+  margin-top: 80px;
+  width: 70%;
 }
 
 .first-section {
-  width: 70%;
+  margin-bottom: 160px;
   display: flex;
-  margin-top: 80px;
 }
 
 .home1-img {
@@ -69,4 +69,15 @@ section {
 .companies-header {
   font-size: 18px;
   color: gray;
+}
+
+.third-section-h3 {
+  color: #C027D3;
+  font-weight: 400;
+}
+
+.third-section-h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0px;
 }

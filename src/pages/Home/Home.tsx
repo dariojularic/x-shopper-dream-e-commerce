@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
 
-
-
 function Home() {
   const navigate = useNavigate();
 
@@ -15,8 +13,7 @@ function Home() {
     throw new Error("Navbar must be used within a PageContext.Provider");
   }
 
-  const {activePage, setActivePage} = context
-
+  const { setActivePage } = context
 
   return (
     <>
@@ -51,9 +48,9 @@ function Home() {
         </ul>
       </section>
 
-      <section>
-        <h3>FEATURED PRODUCTS</h3>
-        <h2>The art of modern living unlocked.</h2>
+      <section className="third-section">
+        <h3 className="third-section-h3">FEATURED PRODUCTS</h3>
+        <h2 className="third-section-h2">The art of modern living unlocked.</h2>
       </section>
     </>
   )

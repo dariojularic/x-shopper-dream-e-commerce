@@ -1,11 +1,9 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-// import { useState } from "react";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
 
 function Navbar() {
-  // const [activePage, setActivePage] = useState<string>("Home")
 
   const context = useContext(pageContext)
 
