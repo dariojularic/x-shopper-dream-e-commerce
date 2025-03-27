@@ -5,6 +5,10 @@ main {
   align-items: center;
 }
 
+section {
+  margin-bottom: 160px;
+}
+
 .first-section {
   width: 70%;
   display: flex;
@@ -60,4 +64,9 @@ main {
   height: 32px;
   object-fit: cover;
   filter: contrast(0%) brightness(100%) saturate(0%);
+}
+
+.companies-header {
+  font-size: 18px;
+  color: gray;
 }

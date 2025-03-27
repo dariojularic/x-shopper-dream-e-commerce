@@ -4,13 +4,28 @@
   padding: 12px 32px;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .action1 {
   background-color: #C027D3;
   color: white;
+  transition: background-color;
+  transition-duration: 0.3s;
+}
+
+.action1:hover {
+  transition-duration: 0.3s;
+  background-color: #a31cb5;
 }
 
 .action2 {
   background-color: white;
+  transition: background-color;
+  transition-duration: 0.3s;
+}
+
+.action2:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(224, 224, 224);
 }

@@ -19,7 +19,7 @@ function Home() {
       </section>
 
       <section className="second-section">
-        <h2>AS FEATURED IN</h2>
+        <h2 className="companies-header">AS FEATURED IN</h2>
         <ul className="companies-list">
           <li><img src="src/assets/techCrunch.png" className="company-img" /></li>
           <li><img src="src/assets/businessInsider.png" className="company-img" /></li>
