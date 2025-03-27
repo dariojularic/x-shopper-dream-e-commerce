@@ -1,9 +1,19 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
+import { useContext } from "react";
+import { pageContext } from "../../PageContext";
 
 function Navbar() {
-  const [activePage, setActivePage] = useState<string>("Home")
+  // const [activePage, setActivePage] = useState<string>("Home")
+
+  const context = useContext(pageContext)
+
+  if (!context) {
+    throw new Error("Navbar must be used within a PageContext.Provider");
+  }
+
+  const {activePage, setActivePage} = context
 
   function handleClick(page: string): void {
     setActivePage(page)
@@ -21,18 +31,18 @@ function Navbar() {
         </div>
 
         <div className="link-container">
-          <Link className="navbar-link" to="/">
-            <p className={activePage === "Home" ? "active" : ""} onClick={() => handleClick("Home")}>Home</p>
+          <Link className="navbar-link" to="/" onClick={() => handleClick("Home")}>
+            <p className={activePage === "Home" ? "active" : ""} >Home</p>
           </Link>
-          <Link className="navbar-link" to="/products">
-            <p className={activePage === "Products" ? "active" : ""} onClick={() => handleClick("Products")}>Products</p>
+          <Link className="navbar-link" to="/products" onClick={() => handleClick("Products")}>
+            <p className={activePage === "Products" ? "active" : ""} >Products</p>
           </Link>
         </div>
 
         <div className="cart-navbar-container">
-          <Link className="navbar-link" to="/cart">
-            <p className={activePage === "Cart" ? "active" : ""} onClick={() => handleClick("Cart")}>Cart</p>
-            <img className="bag-icon" src="src/assets/bag.svg" alt="" />
+          <Link className="navbar-link" to="/cart" onClick={() => handleClick("Cart")}>
+            <p className={activePage === "Cart" ? "active" : ""} >Cart</p>
+            <img className="bag-icon" src="src/assets/bag.svg" />
           </Link>
         </div>
       </nav>
