@@ -23,9 +23,9 @@ function Navbar() {
     <header>
       <nav>
         <div className="logo-container">
-          <Link className="navbar-link" to="/">
+          <Link className="navbar-link" to="/" onClick={() => handleClick("Home")}>
             {/* <svg></svg> */}
-            <img className="bag-icon" src="src/assets/bag.svg" alt="" />
+            <img className="bag-icon" src="src/assets/bag.svg" />
             <p>X Shoppers Dream</p>
           </Link>
         </div>
