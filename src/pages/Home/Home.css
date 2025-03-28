@@ -6,44 +6,45 @@ main {
 }
 
 section {
-  margin-top: 80px;
+  margin-top: 0.8rem;
   width: 70%;
 }
 
 .first-section {
-  margin-bottom: 160px;
+  margin-top: 8rem;
+  margin-bottom: 16rem;
   display: flex;
 }
 
 .home1-img {
-  height: 580px;
+  height: 58rem;
   /* height: 100%; */
 }
 
 .home-header-container {
-  margin: 0 32px;
+  margin: 0 3.2rem;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 48px 0;
+  gap: 3.2rem;
+  padding: 4.8rem 0;
   /* align-items: center; */
   /* justify-content: center; */
 }
 
 .home-h1 {
-  font-size: 56px;
+  font-size: 5.6rem;
   font-weight: 700;
   margin: 0;
 }
 
 .home-h2 {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: 500;
 }
 
 .home-buttons-container {
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .companies-list {
@@ -61,13 +62,13 @@ section {
 }
 
 .company-img {
-  height: 32px;
+  height: 3.2rem;
   object-fit: cover;
   filter: contrast(0%) brightness(100%) saturate(0%);
 }
 
 .companies-header {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: gray;
 }
 
@@ -77,7 +78,7 @@ section {
 }
 
 .third-section-h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 500;
-  margin-top: 0px;
+  margin-top: 0;
 }

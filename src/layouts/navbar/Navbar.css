@@ -7,6 +7,11 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 70%;
+  font-size: 1.8rem
+}
+
+.nav-link-p {
+  align-self: center;
 }
 
 .links-list {
@@ -17,7 +22,7 @@ nav {
 
 .link-container {
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .navbar-link {
@@ -27,13 +32,13 @@ nav {
 }
 
 .bag-icon {
-  height: 32px;
+  height: 3.2rem;
   align-self: center;
 }
 
 .active {
   text-decoration: underline;
   text-decoration-color: #C027D3;
-  text-underline-offset: 8px;
-  text-decoration-thickness: 2px;
+  text-underline-offset: 0.8rem;
+  text-decoration-thickness: 0.2rem;
 }

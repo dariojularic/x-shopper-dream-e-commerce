@@ -24,22 +24,22 @@ function Navbar() {
           <Link className="navbar-link" to="/" onClick={() => handleClick("Home")}>
             {/* <svg></svg> */}
             <img className="bag-icon" src="src/assets/bag.svg" />
-            <p>X Shoppers Dream</p>
+            <p className="nav-link-p">X Shoppers Dream</p>
           </Link>
         </div>
 
         <div className="link-container">
           <Link className="navbar-link" to="/" onClick={() => handleClick("Home")}>
-            <p className={activePage === "Home" ? "active" : ""} >Home</p>
+            <p className={`nav-link-p ${activePage === "Home" ? "active" : ""}`} >Home</p>
           </Link>
           <Link className="navbar-link" to="/products" onClick={() => handleClick("Products")}>
-            <p className={activePage === "Products" ? "active" : ""} >Products</p>
+            <p className={`nav-link-p ${activePage === "Products" ? "active" : ""}`} >Products</p>
           </Link>
         </div>
 
         <div className="cart-navbar-container">
           <Link className="navbar-link" to="/cart" onClick={() => handleClick("Cart")}>
-            <p className={activePage === "Cart" ? "active" : ""} >Cart</p>
+            <p className={`nav-link-p ${activePage === "Cart" ? "active" : ""}`} >Cart</p>
             <img className="bag-icon" src="src/assets/bag.svg" />
           </Link>
         </div>
