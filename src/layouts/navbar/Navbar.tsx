@@ -20,6 +20,10 @@ function Navbar() {
   return (
     <header>
       <nav>
+        <div className="burger-btn-container">
+          <img src="src/assets/burger-menu.png" alt="" />
+        </div>
+
         <div className="logo-container">
           <Link className="navbar-link" to="/" onClick={() => handleClick("Home")}>
             {/* <svg></svg> */}
