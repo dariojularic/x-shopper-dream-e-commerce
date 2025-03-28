@@ -8,11 +8,12 @@ main {
 section {
   margin-top: 0.8rem;
   width: 70%;
+  margin-bottom: 12rem;
 }
 
 .first-section {
   margin-top: 8rem;
-  margin-bottom: 16rem;
+  /* margin-bottom: 16rem; */
   display: flex;
 }
 
@@ -83,7 +84,7 @@ section {
   margin-top: 0;
 }
 
-@media (max-width: 80rem) {
+@media (max-width: 800px) {
   .first-section {
     display: block;
   }
@@ -100,7 +101,8 @@ section {
   }
 
   section {
-    width: 92%
+    width: 92%;
+    margin-bottom: 8rem;
   }
 
   .home-header-container {
@@ -120,5 +122,14 @@ section {
     display: flex;
     justify-content: space-between;
     gap: 0;
+  }
+
+  .companies-list {
+    /* width: 100%;
+    display: flex;
+    justify-content: space-between; */
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
   }
 }

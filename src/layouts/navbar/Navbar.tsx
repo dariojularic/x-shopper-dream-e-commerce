@@ -21,7 +21,7 @@ function Navbar() {
     <header>
       <nav>
         <div className="burger-btn-container">
-          <img src="src/assets/burger-menu.png" alt="" />
+          <img src="src/assets/burger-menu.png" className="burger-btn" />
         </div>
 
         <div className="logo-container">
