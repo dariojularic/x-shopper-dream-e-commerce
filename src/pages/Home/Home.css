@@ -71,6 +71,7 @@ section {
 .companies-header {
   font-size: 1.8rem;
   color: gray;
+  margin-bottom: 4rem;
 }
 
 .third-section-h3 {
@@ -131,5 +132,10 @@ section {
     flex-direction: column;
     gap: 4rem;
     align-items: center;
+  }
+
+  .companies-header {
+    font-size: 1.6rem;
+    /* margin-bottom: 3rem; */
   }
 }
