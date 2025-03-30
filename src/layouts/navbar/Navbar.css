@@ -61,6 +61,12 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: transform 0.3s ease;
+    /* transform: translateX(-300px); */
+  }
+
+  nav.menu-open {
+    transform: translateX(-100%);
   }
 
   .link-container {
