@@ -25,11 +25,11 @@ function Sidebar() {
 
       <h3>Color</h3>
       <ul className="color-list">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li className="color-black"></li>
+        <li className="color-green"></li>
+        <li className="color-yellow"></li>
+        <li className="color-blue"></li>
+        <li className="color-red"></li>
       </ul>
 
       <h3>Price</h3>
