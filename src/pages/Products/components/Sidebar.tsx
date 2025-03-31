@@ -33,17 +33,15 @@ function Sidebar() {
       </ul>
 
       <h3>Price</h3>
-      <div>
-        <span></span>
-        <input type="range" />
-      </div>
+      <span></span>
+      <input type="range" />
 
-      <div>
+      <div className="sidebar-checkbox-container">
         <h3>Free Shipping</h3>
         <input type="checkbox" />
       </div>
 
-      <button>Clear filters</button>
+      <button className="clear-filters-btn">Clear filters</button>
 
     </aside>
   )

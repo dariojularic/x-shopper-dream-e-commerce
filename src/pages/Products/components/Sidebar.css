@@ -76,3 +76,22 @@ li {
   width: .8rem;
   border-radius: 50%;
 }
+
+.sidebar-checkbox-container {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-checkbox-container > h3 {
+  font-size: 1.6rem;
+}
+
+.clear-filters-btn {
+  background-color: rgb(255, 45, 45);
+  color: white;
+  font-weight: 600;
+  padding: .8rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+}
