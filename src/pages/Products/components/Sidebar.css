@@ -1,0 +1,39 @@
+aside > h3 {
+  font-size: 1.6rem;
+}
+
+.product-search-input {
+  border-radius: 8px;
+  height: 3.6rem;
+  padding-left: .8rem;
+  background-color: #FDF4FF;
+  width: 12rem;
+  font-size: 1.6rem;
+  border: 1px solid #c027d3;
+}
+
+.category-list {
+  list-style-type: none;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+
+.category-list > li {
+  margin-bottom: 0.8rem;
+}
+
+.color-list {
+  list-style-type: none;
+}
+
+.manufacturer-select {
+  border-color: #c027d3;
+  border-radius: 8px;
+  height: 3.6rem;
+  padding-left: .8rem;
+  background-color: #FDF4FF;
+  width: 12rem;
+  font-size: 1.6rem;
+
+}

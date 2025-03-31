@@ -3,9 +3,9 @@ import "./Sidebar.css"
 function Sidebar() {
   return (
     <aside>
-      <input type="text" placeholder="Search" />
+      <input type="text" placeholder="Search" className="product-search-input"/>
       <h3>Category</h3>
-      <ul>
+      <ul className="category-list">
         <li>All</li>
         <li>Living Room</li>
         <li>Bedroom</li>
@@ -16,7 +16,7 @@ function Sidebar() {
       </ul>
 
       <h3>Manufacturer</h3>
-      <select>
+      <select className="manufacturer-select">
         <option value="">Liddy</option>
         <option value="">Marcos</option>
         <option value="">Caresa</option>
@@ -24,7 +24,7 @@ function Sidebar() {
       </select>
 
       <h3>Color</h3>
-      <ul>
+      <ul className="color-list">
         <li></li>
         <li></li>
         <li></li>
