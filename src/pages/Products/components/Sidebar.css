@@ -43,6 +43,7 @@ li {
   width: 12rem;
   font-size: 1.6rem;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .color-black {
@@ -94,4 +95,9 @@ li {
   padding: .8rem 1.2rem;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.range-input {
+  cursor: pointer;
 }

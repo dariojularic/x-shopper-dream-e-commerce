@@ -34,7 +34,7 @@ function Sidebar() {
 
       <h3>Price</h3>
       <span></span>
-      <input type="range" />
+      <input type="range" className="range-input" />
 
       <div className="sidebar-checkbox-container">
         <h3>Free Shipping</h3>
