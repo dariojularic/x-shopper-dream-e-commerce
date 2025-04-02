@@ -34,7 +34,7 @@ li {
   cursor: pointer;
 }
 
-/* .manufacturer-select {
+.manufacturer-select {
   border-color: #c027d3;
   border-radius: 8px;
   height: 3.6rem;
@@ -44,7 +44,7 @@ li {
   font-size: 1.6rem;
   margin-bottom: 2rem;
   cursor: pointer;
-} */
+}
 
 .color-black {
   background-color: black;
