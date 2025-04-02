@@ -10,6 +10,7 @@ nav {
   font-size: 1.8rem;
   box-sizing: border-box;
   padding: 0 160px;
+  height: 8rem;
 }
 
 .link-container {
@@ -49,6 +50,14 @@ nav {
 
 .burger-btn-container {
   display: none;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.cart-navbar-container {
+  display: flex;
 }
 
 @media (max-width: 800px) {
