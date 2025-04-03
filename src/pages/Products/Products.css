@@ -1,0 +1,11 @@
+.product-filter-div {
+  display: flex;
+  width: 40rem;
+  justify-content: space-between;
+}
+
+.product-filter-div hr {
+  width: 100%; /* Make the hr span the full width of its parent */
+  align-self: stretch; /* Make the hr stretch to the full height, if needed */
+  margin: 10px 0; /* Adjust margins as needed */
+}
