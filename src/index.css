@@ -3,11 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* 1 rem = 16px  */
-html {
+
+/* html {
   font-size: 62.5%;
-  /* sad je 1 rem = 10px */
-}
+} */
 
 body {
   font-family: "Poppins", sans-serif;
