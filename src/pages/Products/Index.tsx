@@ -1,4 +1,4 @@
-import "./Products.css"
+import "./Index.css"
 import Sidebar from "./components/Sidebar";
 
 function Products() {

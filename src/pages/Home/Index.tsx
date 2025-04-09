@@ -1,8 +1,17 @@
-import "./Home.css";
+import "./Index.css";
 import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
+
+
+// pogledat malo organizaciju foldera
+
+// napravit reusable klase - section, section-heading-intro, section-subheading
+// svaka sekcija neka ima container
+// popravit css
+// napravit fetch request za featured products sekciju
+// random odabrat 3 proizvoda i prikazat ih
 
 function Home() {
   const navigate = useNavigate();

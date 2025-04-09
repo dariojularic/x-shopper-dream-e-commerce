@@ -1,4 +1,4 @@
-import "./Cart.css"
+import "./Index.css"
 
 function Cart() {
   return <h1>Cart</h1>
