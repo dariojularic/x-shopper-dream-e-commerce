@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
-
+import Hero from "./components/Hero";
 
 // pogledat malo organizaciju foldera
 
@@ -12,6 +12,9 @@ import { pageContext } from "../../PageContext";
 // popravit css
 // napravit fetch request za featured products sekciju
 // random odabrat 3 proizvoda i prikazat ih
+
+
+// jel mi treba css file za svaku sekciju ili mogu sve u index.css???
 
 function Home() {
   const navigate = useNavigate();
@@ -26,7 +29,8 @@ function Home() {
 
   return (
     <>
-      <section className="first-section">
+      <Hero/>
+      {/* <section className="first-section">
         <div className="home-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
           <h2 className="home-h2">Create your perfect space with our designs.</h2>
@@ -44,16 +48,16 @@ function Home() {
         <div className="home-image">
           <img src="src/assets/home1.png" alt="" className="home1-img"/>
         </div>
-      </section>
+      </section> */}
 
       <section className="second-section">
         <h2 className="companies-header">AS FEATURED IN</h2>
         <ul className="companies-list">
-          <li><img src="src/assets/techCrunch.png" className="company-img" /></li>
           {/* <li><img src="src/assets/businessInsider.png" className="company-img" /></li> */}
           {/* <li><img src="src/assets/newYorkTimes.png" className="company-img" /></li> */}
-          <li><img src="src/assets/forbes.png" className="company-img" /></li>
           <li><img src="src/assets/usaToday.png" className="company-img" /></li>
+          <li><img src="src/assets/techCrunch.png" className="company-img" /></li>
+          <li><img src="src/assets/forbes.png" className="company-img" /></li>
         </ul>
       </section>
 
