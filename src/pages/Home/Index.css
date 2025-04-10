@@ -26,12 +26,6 @@ main {
   display: flex;
 }
 
-.first-section {
-  margin-top: 8rem;
-  /* margin-bottom: 16rem; */
-  display: flex;
-}
-
 .home1-img {
   height: 58rem;
   /* height: 100%; */
@@ -47,18 +41,18 @@ main {
   /* justify-content: center; */
 }
 
-.home-h1 {
+.hero-h1 {
   font-size: 5.6rem;
   font-weight: 700;
   margin: 0;
 }
 
-.home-h2 {
+.hero-h2 {
   font-size: 2.8rem;
   font-weight: 500;
 }
 
-.home-buttons-container {
+.hero-buttons-container {
   display: flex;
   gap: 2.4rem;
 }
@@ -106,13 +100,13 @@ main {
     display: block;
   }
 
-  .home-h1 {
+  .hero-h1 {
     font-size: 2.4rem;
     font-weight: 700;
     margin: 0;
   }
 
-  .home-h2 {
+  .hero-h2 {
     font-size: 1.8rem;
     font-weight: 500;
   }
@@ -122,7 +116,7 @@ main {
     margin-bottom: 8rem;
   }
 
-  .home-header-container {
+  .hero-header-container {
     margin: 0 .2rem 4rem .2rem;
     display: flex;
     flex-direction: column;

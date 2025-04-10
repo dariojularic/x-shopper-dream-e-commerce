@@ -18,11 +18,11 @@ function Hero() {
     <section className="hero">
       <div className="container hero-container">
         <div className="hero-header-container">
-          <h1 className="home-h1">Furniture design to make you feel at home</h1>
-          <h2 className="home-h2">
+          <h1 className="hero-h1">Furniture design to make you feel at home</h1>
+          <h2 className="hero-h2">
             Create your perfect space with our designs.
           </h2>
-          <div className="home-buttons-container">
+          <div className="hero-buttons-container">
             <Button
               value="Explore products"
               type="action1"
@@ -43,7 +43,7 @@ function Hero() {
             />
           </div>
         </div>
-        <div className="home-image">
+        <div className="hero-image">
           <img src="src/assets/home1.png" alt="" className="home1-img" />
         </div>
       </div>
