@@ -50,7 +50,7 @@ function Home() {
       </section> */}
 
       <section className="section second-section">
-        <div className="container">
+        <div className="container featured-section-container">
           <h2 className="companies-header">AS FEATURED IN</h2>
           <ul className="companies-list">
             {/* <li><img src="src/assets/businessInsider.png" className="company-img" /></li> */}

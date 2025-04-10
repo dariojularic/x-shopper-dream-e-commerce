@@ -16,7 +16,7 @@ function Hero() {
 
   return (
     <section className="hero">
-      <div className="container">
+      <div className="container hero-container">
         <div className="hero-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
           <h2 className="home-h2">
