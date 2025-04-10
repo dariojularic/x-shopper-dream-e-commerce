@@ -13,23 +13,22 @@ import Hero from "./components/Hero";
 // napravit fetch request za featured products sekciju
 // random odabrat 3 proizvoda i prikazat ih
 
-
 // jel mi treba css file za svaku sekciju ili mogu sve u index.css???
 
 function Home() {
   const navigate = useNavigate();
 
-  const context = useContext(pageContext)
+  const context = useContext(pageContext);
 
   if (!context) {
     throw new Error("Navbar must be used within a PageContext.Provider");
   }
 
-  const { setActivePage } = context
+  const { setActivePage } = context;
 
   return (
     <>
-      <Hero/>
+      <Hero />
       {/* <section className="first-section">
         <div className="home-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
@@ -50,23 +49,35 @@ function Home() {
         </div>
       </section> */}
 
-      <section className="second-section">
-        <h2 className="companies-header">AS FEATURED IN</h2>
-        <ul className="companies-list">
-          {/* <li><img src="src/assets/businessInsider.png" className="company-img" /></li> */}
-          {/* <li><img src="src/assets/newYorkTimes.png" className="company-img" /></li> */}
-          <li><img src="src/assets/usaToday.png" className="company-img" /></li>
-          <li><img src="src/assets/techCrunch.png" className="company-img" /></li>
-          <li><img src="src/assets/forbes.png" className="company-img" /></li>
-        </ul>
+      <section className="section second-section">
+        <div className="container">
+          <h2 className="companies-header">AS FEATURED IN</h2>
+          <ul className="companies-list">
+            {/* <li><img src="src/assets/businessInsider.png" className="company-img" /></li> */}
+            {/* <li><img src="src/assets/newYorkTimes.png" className="company-img" /></li> */}
+            <li>
+              <img src="src/assets/usaToday.png" className="company-img" />
+            </li>
+            <li>
+              <img src="src/assets/techCrunch.png" className="company-img" />
+            </li>
+            <li>
+              <img src="src/assets/forbes.png" className="company-img" />
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section className="third-section">
-        <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
-        <h2 className="section-subheading">The art of modern living unlocked.</h2>
+      <section className="section third-section">
+        <div className="container">
+          <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
+          <h2 className="section-subheading">
+            The art of modern living unlocked.
+          </h2>
+        </div>
       </section>
     </>
-  )
+  );
 }
 
 export default Home;

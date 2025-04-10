@@ -5,7 +5,13 @@ main {
   align-items: center;
 }
 
-section {
+.hero {
+  margin-top: 0.8rem;
+  width: 70%;
+  margin-bottom: 12rem;
+}
+
+.section {
   margin-top: 0.8rem;
   width: 70%;
   margin-bottom: 12rem;
@@ -22,7 +28,7 @@ section {
   /* height: 100%; */
 }
 
-.home-header-container {
+.hero-header-container {
   margin: 0 3.2rem;
   display: flex;
   flex-direction: column;
