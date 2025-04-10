@@ -62,8 +62,8 @@ function Home() {
       </section>
 
       <section className="third-section">
-        <h3 className="third-section-h3">FEATURED PRODUCTS</h3>
-        <h2 className="third-section-h2">The art of modern living unlocked.</h2>
+        <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
+        <h2 className="section-subheading">The art of modern living unlocked.</h2>
       </section>
     </>
   )

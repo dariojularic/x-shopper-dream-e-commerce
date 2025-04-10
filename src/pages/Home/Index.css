@@ -74,12 +74,13 @@ section {
   margin-bottom: 4rem;
 }
 
-.third-section-h3 {
+.section-heading-intro {
   color: #C027D3;
   font-weight: 400;
+  font-size: 1.6rem;
 }
 
-.third-section-h2 {
+.section-subheading {
   font-size: 3.6rem;
   font-weight: 500;
   margin-top: 0;
