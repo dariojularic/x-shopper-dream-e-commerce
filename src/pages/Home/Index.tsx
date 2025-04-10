@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
 import Hero from "./components/Hero";
+import Featured from "./components/Featured";
 
 // pogledat malo organizaciju foldera
 
@@ -29,6 +30,7 @@ function Home() {
   return (
     <>
       <Hero />
+      <Featured />
       {/* <section className="first-section">
         <div className="home-header-container">
           <h1 className="home-h1">Furniture design to make you feel at home</h1>
@@ -49,12 +51,10 @@ function Home() {
         </div>
       </section> */}
 
-      <section className="section second-section">
+      {/* <section className="section second-section">
         <div className="container featured-section-container">
           <h2 className="companies-header">AS FEATURED IN</h2>
           <ul className="companies-list">
-            {/* <li><img src="src/assets/businessInsider.png" className="company-img" /></li> */}
-            {/* <li><img src="src/assets/newYorkTimes.png" className="company-img" /></li> */}
             <li>
               <img src="src/assets/usaToday.png" className="company-img" />
             </li>
@@ -66,7 +66,7 @@ function Home() {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <section className="section third-section">
         <div className="container">
