@@ -1,7 +1,7 @@
-function Featured() {
+function Cooperations() {
   return (
     <section className="section second-section">
-        <div className="container featured-section-container">
+        <div className="container cooperations-section-container">
           <h2 className="companies-header">AS FEATURED IN</h2>
           <ul className="companies-list">
             <li>
@@ -19,4 +19,4 @@ function Featured() {
   )
 }
 
-export default Featured;
+export default Cooperations;

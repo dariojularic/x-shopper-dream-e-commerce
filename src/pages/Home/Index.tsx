@@ -1,10 +1,9 @@
 import "./Index.css";
-import Button from "../../components/Button";
-import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { pageContext } from "../../PageContext";
 import Hero from "./components/Hero";
-import Featured from "./components/Featured";
+import Cooperations from "./components/Cooperations";
+import FeaturedProducts from "./components/FeaturedProducts";
 
 // pogledat malo organizaciju foldera
 
@@ -17,65 +16,17 @@ import Featured from "./components/Featured";
 // jel mi treba css file za svaku sekciju ili mogu sve u index.css???
 
 function Home() {
-  const navigate = useNavigate();
-
   const context = useContext(pageContext);
 
   if (!context) {
     throw new Error("Navbar must be used within a PageContext.Provider");
   }
 
-  const { setActivePage } = context;
-
   return (
     <>
       <Hero />
-      <Featured />
-      {/* <section className="first-section">
-        <div className="home-header-container">
-          <h1 className="home-h1">Furniture design to make you feel at home</h1>
-          <h2 className="home-h2">Create your perfect space with our designs.</h2>
-          <div className="home-buttons-container">
-            <Button value="Explore products" type="action1" handleClick={() => {
-              setActivePage("Products")
-              navigate("/products")
-            }} />
-            <Button value="Learn more" type="action2" handleClick={() => window.scrollTo({
-              top: document.body.scrollHeight,
-              behavior: 'smooth'
-            })} />
-          </div>
-        </div>
-        <div className="home-image">
-          <img src="src/assets/home1.png" alt="" className="home1-img"/>
-        </div>
-      </section> */}
-
-      {/* <section className="section second-section">
-        <div className="container featured-section-container">
-          <h2 className="companies-header">AS FEATURED IN</h2>
-          <ul className="companies-list">
-            <li>
-              <img src="src/assets/usaToday.png" className="company-img" />
-            </li>
-            <li>
-              <img src="src/assets/techCrunch.png" className="company-img" />
-            </li>
-            <li>
-              <img src="src/assets/forbes.png" className="company-img" />
-            </li>
-          </ul>
-        </div>
-      </section> */}
-
-      <section className="section third-section">
-        <div className="container">
-          <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
-          <h2 className="section-subheading">
-            The art of modern living unlocked.
-          </h2>
-        </div>
-      </section>
+      <Cooperations />
+      <FeaturedProducts />
     </>
   );
 }
