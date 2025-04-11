@@ -13,9 +13,9 @@ function FeaturedProducts() {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.json();
+        const data: Product[] = await response.json();
         console.log(data);
-        // setProducts(data)
+        setProducts(data.slice(1, 3))
       } catch (error) {
         console.error("Error fetching data", error);
       }
@@ -35,8 +35,9 @@ function FeaturedProducts() {
         <div className="featured-products-container">
           <ul>
             {products.map((product) => (
+              // console.log(products)
               <li key={product.id}>
-                <ProductCard {...product} />
+                <ProductCard product={product} />
               </li>
             ))}
           </ul>
