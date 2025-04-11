@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import ProductCard from "../../Products/components/ProductCard";
+import { Product, ProductCardProps } from "../../../types/types";
 
 function FeaturedProducts() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
 
   const url = "https://www.course-api.com/react-store-products";
   useEffect(() => {
@@ -22,11 +24,23 @@ function FeaturedProducts() {
   }, []);
   return (
     <section className="section featured-products-section">
-      <div className="container featured-products-container">
-        <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
-        <h2 className="section-subheading">
-          The art of modern living unlocked.
-        </h2>
+      <div className="container">
+        <div className="featured-headings-container">
+          <h3 className="section-heading-intro">FEATURED PRODUCTS</h3>
+          <h2 className="section-subheading">
+            The art of modern living unlocked.
+          </h2>
+        </div>
+
+        <div className="featured-products-container">
+          <ul>
+            {products.map((product) => (
+              <li key={product.id}>
+                <ProductCard {...product} />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );
