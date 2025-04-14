@@ -1,0 +1,30 @@
+.product-card-container {
+  height: 320px;
+  width: 400px;
+  /* border: 1px solid green; */
+}
+
+.product-card-image {
+  height: 80%;
+  object-fit: cover;
+  border-radius: 8px;
+
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.product-name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.product-name-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #C027D3;
+}

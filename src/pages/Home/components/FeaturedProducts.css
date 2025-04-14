@@ -1,0 +1,5 @@
+.featured-products-list{
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
