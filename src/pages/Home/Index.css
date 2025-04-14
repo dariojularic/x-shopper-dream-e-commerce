@@ -1,13 +1,11 @@
 main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .hero {
   margin-top: 0.8rem;
-  /* width: 70%; */
   margin-bottom: 12rem;
 }
 
