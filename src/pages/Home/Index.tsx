@@ -4,6 +4,7 @@ import { pageContext } from "../../PageContext";
 import Hero from "./components/Hero";
 import Cooperations from "./components/Cooperations";
 import FeaturedProducts from "./components/FeaturedProducts";
+import ForthSection from "./components/ForthSection";
 
 // pogledat malo organizaciju foldera
 
@@ -27,6 +28,7 @@ function Home() {
       <Hero />
       <Cooperations />
       <FeaturedProducts />
+      <ForthSection />
     </>
   );
 }
