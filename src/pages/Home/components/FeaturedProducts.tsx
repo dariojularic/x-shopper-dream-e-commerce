@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProductCard from "../../Products/components/ProductCard";
-import  "./FeaturedProducts.css"
+import "./FeaturedProducts.css";
 import Button from "../../../components/Button";
 // import { Product, ProductCardProps } from "../../../types/types";
 import { useNavigate } from "react-router-dom";
@@ -32,7 +32,7 @@ function FeaturedProducts() {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data: Product[] = await response.json();
-        console.log(data.slice(1, 4));
+        console.log(data);
         setProducts(data.slice(1, 4));
       } catch (error) {
         console.error("Error fetching data", error);
@@ -59,13 +59,15 @@ function FeaturedProducts() {
               </li>
             ))}
           </ul>
-          <Button
-            value="All Products"
-            type="action1"
-            handleClick={() => {
-              navigate("/products");
-            }}
-          />
+          <div className="products-button-container">
+            <Button
+              value="All Products"
+              type="action1"
+              handleClick={() => {
+                navigate("/products");
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>

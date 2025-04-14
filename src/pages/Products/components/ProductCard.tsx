@@ -25,6 +25,16 @@ function capitalizeFirstLetter(str: string): string {
     .join(" ");
 }
 
+function addDotBeforeLastTwo(price: number): string {
+  const stringNumber = price.toString()
+  if (!stringNumber || stringNumber.length < 3) {
+    return stringNumber; // Return the original string if it's too short or empty
+  }
+
+  const insertPosition = stringNumber.length - 2;
+  return stringNumber.slice(0, insertPosition) + "." + stringNumber.slice(insertPosition);
+}
+
 function ProductCard(product: Product) {
   return (
     <div className="product-card-container">
@@ -35,7 +45,7 @@ function ProductCard(product: Product) {
       />
       <div className="product-name-price-container">
         <p className="product-name">{capitalizeFirstLetter(product.name)}</p>
-        <span className="product-price">{product.price} €</span>
+        <span className="product-price">{addDotBeforeLastTwo(product.price)} €</span>
       </div>
     </div>
   );

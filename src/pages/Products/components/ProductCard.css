@@ -1,7 +1,12 @@
 .product-card-container {
   height: 320px;
   width: 400px;
-  /* border: 1px solid green; */
+  transition: all 0.3s ease;
+}
+
+.product-card-container:hover {
+  transform: translateY(-8px);
+  transition: all 0.3s ease;
 }
 
 .product-card-image {
@@ -10,7 +15,6 @@
   border-radius: 8px;
 
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .product-name {
