@@ -49,7 +49,7 @@ function ForthSection() {
             <li>
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="" alt="" />
+                <img src="src/assets/eye1.png" />
               </div>
 
               <div className="skill-container">
