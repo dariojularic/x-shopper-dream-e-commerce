@@ -11,3 +11,12 @@
   flex-direction: column;
   width: 28rem;
 }
+
+.skill-header {
+  font-size: 1.8rem;
+}
+
+.skill-detail {
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+}

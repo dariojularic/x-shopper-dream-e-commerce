@@ -21,8 +21,8 @@ function ForthSection() {
               </div>
 
               <div className="skill-container">
-                <h3>Radiance</h3>
-                <p>
+                <h3 className="skill-header">Radiance</h3>
+                <p className="skill-detail">
                   Our commitment to providing sparkling solutions ensures every
                   customer enjoys a shining, glowing experience with unmatched
                   quality.
@@ -38,8 +38,8 @@ function ForthSection() {
               </div>
 
               <div className="skill-container">
-                <h3>Clarity</h3>
-                <p>
+                <h3 className="skill-header">Clarity</h3>
+                <p className="skill-detail">
                   With clear vision and keen insight, we guide customers down
                   the path to lasting success with exceptional service and
                   anticipation.
@@ -55,8 +55,8 @@ function ForthSection() {
               </div>
 
               <div className="skill-container">
-                <h3>Heritage</h3>
-                <p>
+                <h3 className="skill-header">Heritage</h3>
+                <p className="skill-detail">
                   As a trusted partner, we offer expert guidance, drawing on our
                   deep wisdom and wealth of experience to ensure satisfaction
                   and success.
