@@ -13,7 +13,15 @@ function ForthSection() {
         <div className="skills-container">
           <ul className="skills-list">
             <li>
-              
+              {/* <div className="skill-container"> */}
+                <div className="skill-icon-container">
+                  <img src="" alt="" />
+                </div>
+                <div className="skill-container">
+                  <h3>Radiance</h3>
+                  <p>Our commitment to providing sparkling solutions ensures every customer enjoys a shining, glowing experience with unmatched quality.</p>
+                </div>
+              {/* </div> */}
             </li>
           </ul>
         </div>
