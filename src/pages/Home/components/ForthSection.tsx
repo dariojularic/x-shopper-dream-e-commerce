@@ -1,3 +1,5 @@
+import "./ForthSection.css"
+
 function ForthSection() {
   return (
     <section className="section">
@@ -12,10 +14,10 @@ function ForthSection() {
 
         <div className="skills-container">
           <ul className="skills-list">
-            <li>
+            <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="" alt="" />
+                <img src="src/assets/eye1.png" alt="" />
               </div>
 
               <div className="skill-container">
@@ -29,10 +31,10 @@ function ForthSection() {
               {/* </div> */}
             </li>
 
-            <li>
+            <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="" alt="" />
+                <img src="src/assets/eye1.png" alt="" />
               </div>
 
               <div className="skill-container">
@@ -46,7 +48,7 @@ function ForthSection() {
               {/* </div> */}
             </li>
 
-            <li>
+            <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
                 <img src="src/assets/eye1.png" />

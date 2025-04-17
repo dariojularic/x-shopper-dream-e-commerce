@@ -1,0 +1,13 @@
+
+.skills-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+}
