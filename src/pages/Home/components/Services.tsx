@@ -40,7 +40,7 @@ function Services() {
         <article>
           <div className="service-details">
             <div className="service-icon-container">
-              <img src="src/assets/eye1.png" alt="" />
+              <img className="skill-icon" src="src/assets/eye1.png" alt="" />
             </div>
 
             <div className="service-heading-paragraph">
