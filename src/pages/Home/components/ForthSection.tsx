@@ -17,7 +17,7 @@ function ForthSection() {
             <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="src/assets/eye1.png" alt="" />
+                <img className="skill-icon" src="src/assets/eye1.png" alt="" />
               </div>
 
               <div className="skill-container">
@@ -34,7 +34,7 @@ function ForthSection() {
             <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="src/assets/eye1.png" alt="" />
+                <img className="skill-icon" src="src/assets/eye1.png" alt="" />
               </div>
 
               <div className="skill-container">
@@ -51,7 +51,7 @@ function ForthSection() {
             <li className="skill-item">
               {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
-                <img src="src/assets/eye1.png" />
+                <img className="skill-icon" src="src/assets/eye1.png" />
               </div>
 
               <div className="skill-container">
