@@ -6,6 +6,7 @@ import Cooperations from "./components/Cooperations";
 import FeaturedProducts from "./components/FeaturedProducts";
 import ForthSection from "./components/ForthSection";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 
 
@@ -33,6 +34,7 @@ function Home() {
       <FeaturedProducts />
       <ForthSection />
       <Services />
+      <Testimonials />
     </>
   );
 }
