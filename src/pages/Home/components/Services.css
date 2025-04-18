@@ -1,0 +1,20 @@
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+
+.service-details {
+  display: flex;
+}
+
+.service-heading {
+  line-height: 3rem;
+  font-size: 2.2rem;
+}
+
+.service-paragraph {
+  font-size: 2rem;
+  line-height: 4rem;
+
+}

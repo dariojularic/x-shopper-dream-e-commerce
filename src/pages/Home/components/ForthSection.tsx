@@ -15,7 +15,6 @@ function ForthSection() {
         <div className="skills-container">
           <ul className="skills-list">
             <li className="skill-item">
-              {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
                 <img className="skill-icon" src="src/assets/eye1.png" alt="" />
               </div>
@@ -28,11 +27,9 @@ function ForthSection() {
                   quality.
                 </p>
               </div>
-              {/* </div> */}
             </li>
 
             <li className="skill-item">
-              {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
                 <img className="skill-icon" src="src/assets/eye1.png" alt="" />
               </div>
@@ -45,11 +42,9 @@ function ForthSection() {
                   anticipation.
                 </p>
               </div>
-              {/* </div> */}
             </li>
 
             <li className="skill-item">
-              {/* <div className="skill-container"> */}
               <div className="skill-icon-container">
                 <img className="skill-icon" src="src/assets/eye1.png" />
               </div>
@@ -62,7 +57,6 @@ function ForthSection() {
                   and success.
                 </p>
               </div>
-              {/* </div> */}
             </li>
           </ul>
         </div>

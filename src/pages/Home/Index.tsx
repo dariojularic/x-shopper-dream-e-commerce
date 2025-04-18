@@ -5,6 +5,9 @@ import Hero from "./components/Hero";
 import Cooperations from "./components/Cooperations";
 import FeaturedProducts from "./components/FeaturedProducts";
 import ForthSection from "./components/ForthSection";
+import Services from "./components/Services";
+
+
 
 // pogledat malo organizaciju foldera
 
@@ -29,6 +32,7 @@ function Home() {
       <Cooperations />
       <FeaturedProducts />
       <ForthSection />
+      <Services />
     </>
   );
 }
