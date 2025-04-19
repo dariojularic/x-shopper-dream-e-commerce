@@ -11,6 +11,30 @@ function Testimonials() {
             counting!
           </h2>
         </div>
+
+        <div className="testimonials-container">
+          <div className="arrow-left-container">
+          <img className="slider-arrow" src="src/assets/left-arrow.png" alt="left-arrow" />
+
+          </div>
+          <div className="testimonial">
+            <h3>Can't believe I have been missing on this!</h3>
+            <p>
+              I cannot speak highly enough of the quality of the products I
+              received from this company. The attention to detail and
+              craftsmanship is unparalleled. I am so grateful to have found such
+              a reliable and professional source for my furniture needs.
+            </p>
+            <div className="testimonial-user">
+              <img src="" alt="" />
+              <p className="testimonial-username"> </p>
+              <p className="testimonial-address"> </p>
+            </div>
+          </div>
+          <div className="arrow-right-container">
+            <img className="slider-arrow" src="src/assets/right-arrow.png" alt="right-arrow" />
+          </div>
+        </div>
       </div>
     </section>
   );
