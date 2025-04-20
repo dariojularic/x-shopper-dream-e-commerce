@@ -13,7 +13,7 @@ function Testimonials() {
         </div>
 
         <div className="testimonials-container">
-          <div className="arrow-left-container">
+          <div className="arrow-container">
           <img className="slider-arrow" src="src/assets/left-arrow.png" alt="left-arrow" />
 
           </div>
@@ -31,7 +31,7 @@ function Testimonials() {
               <p className="testimonial-address"> </p>
             </div>
           </div>
-          <div className="arrow-right-container">
+          <div className="arrow-container">
             <img className="slider-arrow" src="src/assets/right-arrow.png" alt="right-arrow" />
           </div>
         </div>
