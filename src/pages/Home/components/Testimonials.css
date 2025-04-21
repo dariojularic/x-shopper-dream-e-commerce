@@ -1,5 +1,6 @@
 .slider-arrow {
-  height: 100%;
+  height: 3.2rem;
+  align-self: center;
 }
 
 .testimonials-container {
@@ -9,9 +10,15 @@
 
 .arrow-container {
   cursor: pointer;
-  height: 3.2rem;
+  /* height: 3.2rem; */
+  align-content: center;
 }
 
 .testimonial {
+  padding: 0 2.4rem;
+}
 
+.testimonial-header {
+  font-size: 2.7rem;
+  font-weight: 500;
 }

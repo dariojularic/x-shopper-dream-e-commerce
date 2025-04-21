@@ -10,11 +10,12 @@ main {
 }
 
 .section {
-  margin-top: 0.8rem;
-  margin-bottom: 12rem;
+  /* margin-top: 0.8rem;
+  margin-bottom: 12rem; */
   border-bottom: 1px solid lightgray;
   width: 100%;
   padding-bottom: 12rem;
+  padding-top: 12rem;
 }
 
 .container {
