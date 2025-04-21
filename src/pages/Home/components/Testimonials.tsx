@@ -36,7 +36,7 @@ function Testimonials() {
                 src="src/assets/neka profilna.jpg"
                 className="testimonial-user-img"
               />
-              <p className="testimonial-username">Anastasia Capron</p>
+              <p className="testimonial-username">Tyron Capron</p>
               <p className="testimonial-address">San Francisco, USA</p>
             </div>
           </div>
