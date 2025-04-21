@@ -22,7 +22,7 @@ function Testimonials() {
           </div>
           <div className="testimonial">
             <h3 className="testimonial-header">Can't believe I have been missing on this!</h3>
-            <p>
+            <p className="testimonial-paragraph">
               I cannot speak highly enough of the quality of the products I
               received from this company. The attention to detail and
               craftsmanship is unparalleled. I am so grateful to have found such
