@@ -5,7 +5,7 @@
 
 .testimonials-container {
   display: flex;
-
+  padding: 0 2rem
 }
 
 .arrow-container {
