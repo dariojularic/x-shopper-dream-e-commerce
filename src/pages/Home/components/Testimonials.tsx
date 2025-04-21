@@ -21,7 +21,10 @@ function Testimonials() {
             />
           </div>
           <div className="testimonial">
-            <h3 className="testimonial-header">Can't believe I have been missing on this!</h3>
+            <h3 className="testimonial-header">
+              Can't believe I have been missing on this!
+            </h3>
+            <hr />
             <p className="testimonial-paragraph">
               I cannot speak highly enough of the quality of the products I
               received from this company. The attention to detail and
@@ -29,9 +32,12 @@ function Testimonials() {
               a reliable and professional source for my furniture needs.
             </p>
             <div className="testimonial-user">
-              <img src="" alt="" />
-              <p className="testimonial-username"> </p>
-              <p className="testimonial-address"> </p>
+              <img
+                src="src/assets/neka profilna.jpg"
+                className="testimonial-user-img"
+              />
+              <p className="testimonial-username">Anastasia Capron</p>
+              <p className="testimonial-address">San Francisco, USA</p>
             </div>
           </div>
           <div className="arrow-container">
