@@ -1,11 +1,36 @@
-.product-filter-div {
+/* .product-filter-div {
   display: flex;
   width: 40rem;
   justify-content: space-between;
-}
+} */
 
-.product-filter-div hr {
+/* .product-filter-div {
   width: 100%;
   align-self: stretch;
   margin: 10px 0;
+} */
+
+.products-container {
+  display: flex;
+  /* width: 100%; */
+}
+
+.product-filter-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-found-paragraph {
+  font-size: 1.8rem;
+  font-weight: 500;
+  align-self: center;
+}
+
+.break-line-container {
+  width: 32rem;
+  margin: 0 4rem;
+}
+
+.break-line {
+  border-top: 1px solid #C027D3;
 }
