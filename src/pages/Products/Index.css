@@ -27,10 +27,30 @@
 }
 
 .break-line-container {
-  width: 32rem;
+  width: 28rem;
   margin: 0 4rem;
 }
 
 .break-line {
   border-top: 1px solid #C027D3;
+}
+
+.sort-by-label {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.sort-by-select {
+  border-radius: 8px;
+  height: 3.6rem;
+  padding-left: .8rem;
+  background-color: #FDF4FF;
+  width: 12rem;
+  font-size: 1.6rem;
+  border: 1px solid #c027d3;
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
 }

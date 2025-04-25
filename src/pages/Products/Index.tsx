@@ -14,9 +14,9 @@ function Products() {
             <div className="break-line-container">
               <hr className="break-line" />
             </div>
-            <div>
-              <label className="" htmlFor="sort">Sort by:</label>
-              <select name="sort" id="sort">
+            <div className="sort-by-container">
+              <label className="sort-by-label" htmlFor="sort">Sort by:</label>
+              <select className="sort-by-select" name="sort" id="sort">
                 <option value="">Price (Lowest)</option>
                 <option value="">Price (Highest)</option>
                 <option value="">Name (A-Z)</option>
