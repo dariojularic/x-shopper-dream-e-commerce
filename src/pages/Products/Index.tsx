@@ -5,7 +5,6 @@ function Products() {
   return (
     <section className="section products-section">
       <div className="container products-container">
-        <h1>Products</h1>
         <Sidebar />
 
         <div className="">

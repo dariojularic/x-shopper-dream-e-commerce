@@ -15,10 +15,10 @@
   /* width: 100%; */
 }
 
-.product-filter-div {
+/* .product-filter-div {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .products-found-paragraph {
   font-size: 1.8rem;
@@ -43,7 +43,7 @@
 .sort-by-select {
   border-radius: 8px;
   height: 3.6rem;
-  padding-left: .8rem;
+  padding-left: .2rem;
   background-color: #FDF4FF;
   width: 12rem;
   font-size: 1.6rem;
