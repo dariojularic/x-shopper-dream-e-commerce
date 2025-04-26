@@ -15,10 +15,10 @@
   /* width: 100%; */
 }
 
-/* .product-filter-div {
+.product-filter-div {
   display: flex;
   justify-content: space-between;
-} */
+}
 
 .products-found-paragraph {
   font-size: 1.8rem;
