@@ -9,7 +9,6 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 
 
-
 // pogledat malo organizaciju foldera
 
 // napravit reusable klase - section, section-heading-intro, section-subheading
