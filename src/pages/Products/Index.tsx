@@ -1,6 +1,8 @@
 import "./Index.css";
 import Sidebar from "./components/Sidebar";
 
+// koristenje autocomplete?
+
 function Products() {
   return (
     <section className="section products-section">
