@@ -103,6 +103,11 @@ main {
 }
 
 @media (max-width: 800px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .first-section {
     display: block;
   }
@@ -154,5 +159,16 @@ main {
   .companies-header {
     font-size: 1.6rem;
     /* margin-bottom: 3rem; */
+  }
+
+  .featured-products-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
   }
 }
