@@ -103,6 +103,15 @@ main {
 }
 
 @media (max-width: 800px) {
+
+  .section-subheading {
+    font-size: 2.8rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -146,7 +155,7 @@ main {
     width: 100%
   }
 
-  .home-buttons-container {
+  .hero-buttons-container {
     display: flex;
     justify-content: space-between;
     gap: 0;

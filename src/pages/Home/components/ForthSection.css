@@ -29,3 +29,11 @@
 .skill-icon-container {
   margin-bottom: 2rem;
 }
+
+
+@media (max-width: 800px) {
+
+  .skill-item {
+    width: 100%;
+  }
+}
