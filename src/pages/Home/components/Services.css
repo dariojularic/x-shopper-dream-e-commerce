@@ -21,12 +21,12 @@
 }
 
 @media (max-width: 800px) {
-  .service-heading {
+  /* .service-heading {
     font-size: 1.8rem;
   }
 
   .service-paragraph{
     font-size: 1.6rem;
     line-height: 2.8rem;
-  }
+  } */
 }
