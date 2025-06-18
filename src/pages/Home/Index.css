@@ -104,6 +104,10 @@ main {
 
 @media (max-width: 800px) {
 
+  .section-heading-intro {
+    font-size: 1.4rem;
+  }
+
   .section-subheading {
     font-size: 2.8rem;
   }
@@ -175,10 +179,7 @@ main {
     /* margin-bottom: 3rem; */
   }
 
-  .featured-products-list {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .skills-list {
     display: flex;
